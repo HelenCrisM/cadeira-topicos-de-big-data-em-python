@@ -4,17 +4,17 @@
 # Crie um algoritmo que peça o nome de dois times de futebol e quantos gols cada time fez na partida.
 # Com os dados coletados, informe qual time venceu, qual time perdeu ou se houve empate.
 
-# nome_primeiro_time = input('Digite um nome de time de futebol: ')
-# quant_de_gols_primeiro_time = int(input('Digite a quantidade de gols que cada time fez na partida: '))
-# nome_segundo_time = input('Digite outro nome de time de futebol: ')
-# quant_de_gols_segundo_time = int(input('Digite a quantidade de gols que cada time fez na partida: '))
+nome_primeiro_time = input('Digite um nome de time de futebol: ')
+quant_de_gols_primeiro_time = int(input('Digite a quantidade de gols que cada time fez na partida: '))
+nome_segundo_time = input('Digite outro nome de time de futebol: ')
+quant_de_gols_segundo_time = int(input('Digite a quantidade de gols que cada time fez na partida: '))
 
-# if (quant_de_gols_primeiro_time == quant_de_gols_segundo_time):
-#     print('Empate!!')
-# elif (quant_de_gols_primeiro_time > quant_de_gols_segundo_time):
-#     print(f'Time {nome_primeiro_time} venceu!!')
-# else: 
-#     print(f'Time {nome_segundo_time} venceu!!')
+if (quant_de_gols_primeiro_time == quant_de_gols_segundo_time):
+    print('Empate!!')
+elif (quant_de_gols_primeiro_time > quant_de_gols_segundo_time):
+    print(f'Time {nome_primeiro_time} venceu!!')
+else: 
+    print(f'Time {nome_segundo_time} venceu!!')
 
 
 # Atividade 2:
