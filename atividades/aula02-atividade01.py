@@ -59,4 +59,4 @@ if (resposta_afirmativa == 4):
 elif (resposta_afirmativa == 0):
     print('Você não está com dengue!!')
 elif (resposta_afirmativa >= 1):
-    print('Você deve ficar em repouso e continuar observando a evolução dos sistomas.')
+    print('Você deve ficar em repouso e continuar observando a evolução dos sintomas.')
